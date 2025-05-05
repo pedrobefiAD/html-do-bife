@@ -53,4 +53,5 @@ if nova_tabela:
             navigator.clipboard.writeText({repr(nova_tabela)});
             </script>
         """, unsafe_allow_html=True)
+        st.success("✔ HTML copiado para a área de transferência!")
         
